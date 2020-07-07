@@ -1,6 +1,8 @@
-﻿html{
-    background-color:black;
-    color:azure;
+﻿html {
+    background-color: black;
+    background-image: url(../Images/indexBackGround.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 ul{
     list-style-type:none;
@@ -13,21 +15,35 @@ li{
     display:inline;
 }
 li a{
+    background-color:black;
     display:block;
     text-align:center;
     padding: 14px 16px;
-    color:coral;
+    color:darkgoldenrod;
 }
 li a:hover{
     background-color:azure;
 }
+p {
+    background-color: black;
+}
 body{
+    color:brown;
     word-wrap:normal;
 }
-h1{
-    text-align:center;
+h1 {
+    text-shadow: -2px 2px 0px gray;
+    text-align: center;
+    color: black;
 }
-footer{
-    text-align:right;
-    color:darkred;
+h2 {
+    font-size:larger;
+    text-align: center;
+    text-shadow: -2px 2px 0px gray;
+    color: black;
+}
+footer {
+    font-size:20px;
+    text-align: right;
+    color: darkred;
 }
